@@ -7,11 +7,12 @@
 
 ## 배경 (Background)
 - **시장 성장**: 국내 반려동물 산업은 2027년 6조 원 규모로 성장할 전망이며, 동물병원 이용률은 80.4%에 달합니다.
-  - *The Korean pet industry is projected to reach ~6 trillion KRW by 2027, with high veterinary service usage (80.4%).*
+  - **Market Growth**: *The Korean pet industry is projected to reach ~6 trillion KRW by 2027, with high veterinary service usage (80.4%).*
 - **현실적인 문제**: 높은 진료비 부담으로 보험 수요는 증가하고 있으나, 2024년 기준 펫보험 가입률은 **약 1.4%**에 불과합니다.
-  - *High veterinary costs drive demand, but the actual adoption rate remains extremely low at around 1.4% (as of 2024).*
+  - **Real-world Issues**: *High veterinary costs drive demand, but the actual adoption rate remains extremely low at around 1.4% (as of 2024).*
 - **주요 장벽**: 약관의 복잡성, 면책 기간, 보장 제외 조항 등 전문적인 내용이 소비자에게 큰 진입 장벽이 되고 있습니다.
-  - *Complex policy terms, such as coverage exclusions and waiting periods, act as significant barriers for consumers.*
+  - **Major Barriers**: *Complex policy terms, such as coverage exclusions and waiting periods, act as significant barriers for consumers.*
+
 
 ## 문제점 (Problems)
 
@@ -58,8 +59,9 @@
 
 ## 기대 효과 (Expected Impact)
 - **정보 비대칭 해소**: 전문적인 보험 약관을 소비자의 언어로 해석하여 전달함으로써 오해와 불신을 줄입니다.
-  - *Translates professional terms into consumer-friendly language to reduce misunderstanding.*
+  - **Resolving Information Asymmetry**: *Translates professional terms into consumer-friendly language to reduce misunderstanding.*
 - **분쟁 예방**: 가입 단계에서부터 정확한 보장 범위를 인지시켜 향후 발생할 수 있는 보상 분쟁을 예방합니다.
-  - *Prevents future disputes by clarifying coverage scope upfront.*
+  - **Preventing Disputes**: *Prevents future disputes by clarifying coverage scope upfront.*
 - **접근성 향상**: 누구나 쉽게 펫보험 정보를 확인하고 비교할 수 있게 하여, 반려동물 양육의 경제적 부담 완화에 기여합니다.
-  - *Makes insurance info accessible to everyone, helping to ease the economic burden of pet ownership.*
+  - **Improving Accessibility**: *Makes insurance info accessible to everyone, helping to ease the economic burden of pet ownership.*
+
