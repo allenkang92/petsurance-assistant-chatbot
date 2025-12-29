@@ -51,7 +51,7 @@ LangChain을 활용하면 이 과정을 구성 요소 단위로 직접 설계하
 ### 7️⃣ LLM 응답 생성 (LLM)
 - **목표:** Gemini Pro 모델을 통해 자연스러운 답변 생성
 - **LangChain 도구:** `ChatGoogleGenerativeAI`
-- **모델:** `gemini-1.5-pro` (또는 `gemini-pro`)
+- **모델:** `gemini-2.5-flash` (또는 `gemini-pro`)
 
 ### 8️⃣ 체인 생성 (Chain Integration)
 - **목표:** 검색(Retriever)과 생성(LLM)을 연결
