@@ -71,11 +71,11 @@
 1. **상담 모드(Consultation mode)**:
    - **최신 판매 중 상품의 약관 챗봇**: 사전 학습된 DB에서 정보를 검색하여 즉시 일관된 답변 제공.
 
-![alt text](image-1.png)
+![alt text](./img/image-1.png)
 
    - **이외 상품의 약관 챗봇**: 사용자가 업로드한 개별 문서를 즉시 학습(In-memory indexing)하여 맞춤 상담.
 
-![alt text](image.png)
+![alt text](./img/image.png)
 
 2. **지식그래프 대화 메모리 (KG Memory)**: 대화의 맥락이 이어질 때 과거에 언급된 엔티티와 관계를 기억하여 일관성 있는 상담 진행.
 3. **정밀 검색 시스템 (RAG + Reranking)**: 대량의 청크 중 가장 관련성 높은 문서를 2단계로 필터링하여 오답률 최소화.
