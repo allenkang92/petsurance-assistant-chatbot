@@ -57,6 +57,48 @@
 *※ The chatbot does not provide premium calculations, underwriting predictions, or legal advice.*
 
 
+## 기술 스택 (Tech Stack)
+- **Frontend**: Streamlit (Chat-based UI, Session Management)
+- **Backend**: FastAPI (Rest API, SSE Streaming)
+- **AI/ML**:
+  - LLM: **Gemini 2.5 Flash** (Generative AI)
+  - Embedding: **KR-SBERT-V40K** (Korean specialized embedding)
+  - Reranker: **BGE-Reranker-v2-m3** (High-precision document ranking)
+  - Framework: **LangChain** (LCEL, ConversationKGMemory)
+- **Database**: **Chroma DB** (Vector Store)
+
+## 핵심 기능 (Core Features)
+1. **상담 모드(Consultation mode)**:
+   - **최신 판매 중 상품의 약관 챗봇**: 사전 학습된 DB에서 정보를 검색하여 즉시 일관된 답변 제공.
+
+![alt text](image-1.png)
+
+   - **이외 상품의 약관 챗봇**: 사용자가 업로드한 개별 문서를 즉시 학습(In-memory indexing)하여 맞춤 상담.
+
+![alt text](image.png)
+
+2. **지식그래프 대화 메모리 (KG Memory)**: 대화의 맥락이 이어질 때 과거에 언급된 엔티티와 관계를 기억하여 일관성 있는 상담 진행.
+3. **정밀 검색 시스템 (RAG + Reranking)**: 대량의 청크 중 가장 관련성 높은 문서를 2단계로 필터링하여 오답률 최소화.
+4. **SSE 스트리밍 응답**: 실시간 답변 생성을 통해 끊김 없는 사용자 경험 제공.
+
+## 실행 방법 (Quick Start)
+
+### 1. 환경 설정
+- `.env` 파일을 생성하고 아래 키를 입력합니다.
+  ```text
+  GOOGLE_API_KEY=YOUR_API_KEY
+  ```
+
+### 2. 백엔드 실행
+```bash
+python -m backend.main
+```
+
+### 3. 프론트엔드 실행
+```bash
+python -m streamlit run frontend/app.py
+```
+
 ## 기대 효과 (Expected Impact)
 - **정보 비대칭 해소**: 전문적인 보험 약관을 소비자의 언어로 해석하여 전달함으로써 오해와 불신을 줄입니다.
   - **Resolving Information Asymmetry**: *Translates professional terms into consumer-friendly language to reduce misunderstanding.*
