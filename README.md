@@ -84,7 +84,7 @@
 ## 실행 방법 (Quick Start)
 
 ### 1. 환경 설정
-- `.env` 파일을 생성하고 아래 키를 입력합니다.
+`.env` 파일을 생성하고 아래 키를 입력합니다.
   ```text
   GOOGLE_API_KEY=YOUR_API_KEY
   ```
